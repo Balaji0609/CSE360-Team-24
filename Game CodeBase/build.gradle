@@ -4,6 +4,7 @@ buildscript {
         maven { url "https://oss.sonatype.org/content/repositories/snapshots/" }
     }
     dependencies {
+    	classpath 'mysql:mysql-connector-java:5.7.9'
     }
 }
 
